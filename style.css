@@ -1,3 +1,19 @@
+/* ANIMATIONS */
+
+@keyframes loadShadow {
+  0% {
+    color: #fff;
+  }
+  100% {
+    -webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+    background-color:#fff;
+    color:rgb(40,40,40);
+    width:159px;
+  }
+}
+
 /* General CSS used in multiple areas */
 
 .btn {
@@ -6,7 +22,6 @@
   height:40px;
   border-radius: 0;
   padding: 8px 12px !important;
-  color:white;
 }
 
 /* The rest of the CSS is in order of page layout, from top to bottom */
@@ -24,6 +39,8 @@ nav.navbar.navbar-default {
 .navbar-default .navbar-nav>li>a {
   color: #0B1035;
   letter-spacing: 2px;
+  padding-left:20px;
+  padding-right:20px;
 }
 
 .navbar-brand
@@ -47,7 +64,7 @@ nav.navbar.navbar-default {
 }
 
 .navbar-collapse {
-  max-width: 1024px;
+  max-width: 1200px;
   margin:0 auto!important;
 }
 
@@ -86,4 +103,16 @@ nav.navbar.navbar-default {
 
 .fitforwork-jumbotron .btn {
   margin-top:20px;
+}
+
+.shop-now-btn {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: normal;
+  color:#fff;
+}
+
+.shop-now-btn:hover {
+  animation: 0.3s cubic-bezier(.34, .97, .77, .99) 0s 1 loadShadow;
+  animation-fill-mode: forwards;
 }
