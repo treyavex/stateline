@@ -51,7 +51,7 @@ nav.navbar.navbar-default {
   margin:0 auto!important;
 }
 
-.navbar-nav > li > a, .navbar-brand {
+.navbar-nav > li > a {
     padding-top:35px !important;
     padding-bottom:0 !important;
     height: 95px;
