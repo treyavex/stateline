@@ -1,0 +1,89 @@
+/* General CSS used in multiple areas */
+
+.btn {
+  border: 1px solid #fff;
+  width:150px;
+  height:40px;
+  border-radius: 0;
+  padding: 8px 12px !important;
+  color:white;
+}
+
+/* The rest of the CSS is in order of page layout, from top to bottom */
+/* NAVBAR CSS */
+
+nav.navbar.navbar-default {
+  margin:0;
+  border:none;
+  background-color:#fff;
+  min-height: 95px !important;
+  font-family: "Roboto";
+  font-size:13px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #0B1035;
+  letter-spacing: 2px;
+}
+
+.navbar-brand
+{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  margin:0 auto;
+  top: 0;
+
+}
+
+.navbar-brand>img {
+  display:inline-block;
+}
+
+.navbar-toggle {
+    z-index:3;
+    margin-top:28px;
+}
+
+.navbar-collapse {
+  max-width: 1024px;
+  margin:0 auto!important;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:35px !important;
+    padding-bottom:0 !important;
+    height: 95px;
+}
+
+.navbar-header {
+  height:95px;
+}
+
+/* JUMBOTRON CSS */
+.fitforwork-jumbotron {
+  font-family: "Roboto Slab";
+  height:510px;
+  text-align: center;
+  background-image: url("assets/WZ400_neck_red.png");
+  background-repeat:no-repeat;
+  background-position:center;
+  color:#fff;
+}
+
+.fitforwork-jumbotron h2 {
+  font-weight:100;
+  font-size:80px;
+}
+
+.fitforwork-jumbotron p.workfit {
+  font-weight: 700;
+  font-size:14px;
+  letter-spacing: 3px;
+  margin-top: 90px;
+}
+
+.fitforwork-jumbotron .btn {
+  margin-top:20px;
+}
