@@ -87,3 +87,66 @@ nav.navbar.navbar-default {
 .fitforwork-jumbotron .btn {
   margin-top:20px;
 }
+
+/*Product Detail Page CSS*/
+#product-detail-body {
+  font-family: "Roboto-Thin";
+  width: 100%;
+}
+#product-detail-body h2 {
+  color: #0B1035;
+  font-size: 42px;
+}
+#product-detail-body p {
+  color: #9B9B9B;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 26px;
+}
+.product-main-img {
+  /*margin-top: 45px;
+  margin-left: 90px;*/
+  margin: 45px 0 0 90px;
+}
+.product-side-img-cont {
+  margin: 0 0 0 150px;
+}
+#product-side2 {
+  margin: 0 10px;
+}
+.product-description-cont {
+  width: 506px;
+  height: 378px;
+  float: right;
+  margin: 166px 102px 0 0;
+}
+.product-description-cont p {
+  width: 440px;
+}
+.bottom-btn-cont {
+  width: 298px;
+  height: 40px;
+}
+#btn-qty {
+  width: 114px;
+  height: 40px;
+  float: left;
+}
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 3px 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #292b2c;
+  text-align: inherit;
+  white-space: nowrap;
+  background: 0 0;
+  border: 0;
+}
+#btn-cart {
+  width: 174px;
+  height: 40px;
+  float: right;
+  background: #0B1035;
+}
