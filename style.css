@@ -15,17 +15,13 @@
 }
 
 /* General CSS used in multiple areas */
-
-.btn {
-  border: 1px solid #fff;
-  width:150px;
-  height:40px;
-  border-radius: 0;
-  padding: 8px 12px !important;
+body {
+  font-family: "Roboto";
 }
 
+
 .col-md-6 {
-  border:1px solid red;
+  /*border:1px solid #aaf2ff;*/
 }
 
 /* The rest of the CSS is in order of page layout, from top to bottom */
@@ -90,7 +86,9 @@ nav.navbar.navbar-default {
   background-image: url("assets/WZ400_neck_red.png");
   background-repeat:no-repeat;
   background-position:center;
+  background-size: cover;
   color:#fff;
+  margin-bottom:75px;
 }
 
 .fitforwork-jumbotron h2 {
@@ -99,26 +97,92 @@ nav.navbar.navbar-default {
 }
 
 .fitforwork-jumbotron p.workfit {
-  font-weight: 700;
+  font-weight: 100;
   font-size:14px;
   letter-spacing: 3px;
   margin-top: 90px;
+  font-family: "Roboto";
 }
 
 .fitforwork-jumbotron .btn {
   margin-top:20px;
 }
 
-.shop-now-btn {
+.fitforwork-jumbotron .shop-now-btn {
   font-family: "Roboto";
   font-size: 14px;
   font-weight: normal;
   color:#fff;
+  border: 1px solid #fff;
+  width:150px;
+  height:40px;
+  border-radius: 0;
+  padding: 8px 12px !important;
 }
 
 .shop-now-btn:hover {
   animation: 0.3s cubic-bezier(.34, .97, .77, .99) 0s 1 loadShadow;
   animation-fill-mode: forwards;
+}
+
+.clothing-showcase {
+  padding-bottom:40px;
+}
+
+.clothing-showcase img.first {
+  width:520px;
+  height:520px;
+}
+
+.clothing-showcase img.second {
+  width:585px;
+  height:585px;
+}
+
+@media (max-width: 1200px){
+  .clothing-showcase img.fisrt {
+    width:450px;
+    height:450px;
+  }
+
+  .clothing-showcase img.second {
+    width:515px;
+    height:515px;
+  }
+}
+
+.clothing-showcase h3 {
+  margin-top:140px;
+  font-size:42px;
+  font-weight:100;
+  color: #0B1035;
+  margin-bottom:7px;
+}
+
+@media (max-width: 991px){
+  .clothing-showcase h3 {
+    margin-top:10px;
+  }
+}
+
+.clothing-showcase p.description {
+  color: #9B9B9B;
+  margin-top:0;
+  font-size:18px;
+  font-weight:300;
+}
+
+.clothing-showcase .shop-btn {
+  font-weight:normal;
+  font-size:14px;
+  letter-spacing: 3.5px;
+  color: #0B1035;
+  padding-left: 0;
+}
+
+
+
+
 
 /*Product Detail Page CSS*/
 #product-detail-body {
