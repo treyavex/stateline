@@ -119,4 +119,133 @@ nav.navbar.navbar-default {
 .shop-now-btn:hover {
   animation: 0.3s cubic-bezier(.34, .97, .77, .99) 0s 1 loadShadow;
   animation-fill-mode: forwards;
+
+/*Product Detail Page CSS*/
+#product-detail-body {
+  font-family: "Roboto-Thin";
+  width: 100%;
+}
+#product-detail-body h2 {
+  color: #0B1035;
+  font-size: 42px;
+}
+#product-detail-body p {
+  color: #9B9B9B;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 26px;
+}
+.product-main-img {
+  /*margin-top: 45px;
+  margin-left: 90px;*/
+  margin: 45px 0 0 90px;
+}
+.product-side-img-cont {
+  margin: 0 0 0 150px;
+}
+#product-side2 {
+  margin: 0 10px;
+}
+.product-description-cont {
+  position: relative;
+  width: 506px;
+  height: 378px;
+  float: right;
+  margin: 166px 102px 0 0;
+}
+.product-description-cont p {
+  width: 440px;
+}
+.info-btn-cont {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  margin-top: 14px;
+}
+.info-btn {
+  position: absolute;
+  width: 438px;
+  background: none;
+  color: #0B1035;
+  text-align: left;
+  font-family: "Roboto-Regular";
+  font-size: 14px;
+  border-bottom: 1.5px solid rgba(151,151,151,0.5);
+  padding: 8px 0 !important;
+  letter-spacing: 4px;
+}
+.info-btn img {
+  position: absolute;
+  right: 0;
+  top: 12px;
+}
+#btn-size-chart {
+  top: 0;
+}
+#btn-more-info {
+  bottom: 0;
+}
+.bottom-btn-cont {
+  width: 298px;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+}
+.bottom-btn {
+  font-family: "Roboto-Regular";
+  letter-spacing: 4px;
+  font-size: 14px;
+  border: 0;
+  height: 40px;
+}
+#btn-qty {
+  width: 114px;
+  float: left;
+  background: #F0F0F0;
+  color: #0B1035;
+  text-align: left;
+  padding: 8px 24px !important;
+}
+#btn-qty img {
+  margin-left: 18px;
+}
+.bottom-btn-cont .dropdown-menu {
+  min-width: 114px !important;
+  border-radius: 0 !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: 0 !important;
+  margin-top: 40px !important;
+}
+.bottom-btn-cont .dropdown-menu a {
+  width: 100%;
+}
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 3px 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #292b2c;
+  text-align: inherit;
+  white-space: nowrap;
+  background: 0 0;
+  border: 0;
+}
+#btn-cart {
+  width: 174px;
+  float: right;
+  background: #0B1035;
+}
+#suggested-cont {
+  position: relative;
+  width: 100%;
+  height: 436px;
+  margin: 100px 0 0 0;
+  background: #FAFAFA;
+}
+#banner-cont {
+  width: 100%;
+  height: 264px;
+  margin: 0;
+  background: #0B1035;
 }
