@@ -81,6 +81,47 @@ nav.navbar.navbar-default {
   height:95px;
 }
 
+/* FOOTER CSS */
+
+footer.stateline-footer {
+  height:250px;
+  border-top: 1px solid rgb(220,220,220);
+  margin-top:81px!important;
+  padding-top:48px;
+  text-align:left;
+}
+
+footer.stateline-footer p {
+  margin-bottom:20px;
+}
+
+footer.stateline-footer a {
+  font-size: 12px;
+	letter-spacing: 1.5px;
+}
+
+footer.stateline-footer a:hover {
+  text-decoration: none;
+}
+
+footer.stateline-footer img.stateline-logo {
+  margin-bottom: 50px;
+}
+
+footer.stateline-footer .links-col-one a {
+  color:#4a4a4a;
+}
+
+footer.stateline-footer .links-col-two a {
+  color:#9b9b9b;
+}
+
+footer.stateline-footer .social-media-icons a {
+  margin:15px;
+  color: #9B9B9B;
+  font-size:14px;
+}
+
 /* JUMBOTRON CSS */
 .fitforwork-jumbotron {
   font-family: "Roboto Slab";
@@ -209,6 +250,10 @@ nav.navbar.navbar-default {
   font-size:22px;
 }
 
+.our-process p.description {
+  padding-right:50px;
+}
+
 .our-process .about-btn {
   width:174px;
   height:40px;
@@ -320,6 +365,30 @@ nav.navbar.navbar-default {
   color: #0b1035;
   padding-top:8px;
 }
+
+.instagram .col-md-4 {
+  background-color:blue;
+  padding:0!important;
+  text-align:left;
+}
+
+.instagram h3 {
+  margin-left:-5px;
+}
+
+.instagram .view-all {
+  margin-right:0;
+}
+
+.instagram img {
+  height:380px;
+  width:380px;
+  display: inline-block;
+  position:relative;
+}
+
+
+
 
 
 
@@ -500,14 +569,69 @@ nav.navbar.navbar-default {
     margin:0 auto;
     text-align:center;
   }
+
+  .instagram img {
+    width:250px;
+    height:250px;
+  }
 }
 
 
 @media (max-width: 991px){
+  .clothing-showcase-wrap {
+    text-align: center;
+  }
+  .clothing-showcase-wrap .row-one img {
+    margin-bottom: 20px;
+  }
+  .clothing-showcase-wrap .row-two {
+    display: flex;
+    flex-flow:column;
+  }
+  .clothing-showcase-wrap .row-two img {
+    margin-bottom: -10px;
+  }
+  .clothing-showcase-wrap .row-two .col-one {
+    order:2;
+  }
+  .clothing-showcase-wrap .row-two .col-two {
+    order:1;
+  }
   .clothing-showcase h3 {
     margin-top:10px;
   }
   .clothing-showcase p.description {
     width:auto;
+  }
+
+  .our-process {
+    text-align:center;
+  }
+  .our-process .col-md-7 {
+    padding:30px;
+  }
+  .our-process p.description {
+    padding-right:0px;
+  }
+  .from-the-blog .blog-post {
+    margin-left: 0px;
+    margin-right:0px;
+  }
+
+
+  .instagram img {
+    width:450px;
+    height:450px;
+    display:block;
+    margin:0 auto;
+  }
+
+  footer.stateline-footer .row {
+    text-align:center;
+  }
+
+  footer.stateline-footer .social-media-icons {
+    margin-bottom:50px;
+    margin-top:60px;
   }
 }
