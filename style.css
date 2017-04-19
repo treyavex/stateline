@@ -208,6 +208,11 @@ footer.stateline-footer .social-media-icons a {
   width:400px;
 }
 
+.clothing-showcase-wrap .row-two p.shop-btn {
+  text-align:right;
+  width:400px;
+}
+
 .clothing-showcase .shop-btn {
   font-weight:normal;
   font-size:14px;
@@ -280,6 +285,11 @@ footer.stateline-footer .social-media-icons a {
   margin-left:55px;
 }
 
+.from-the-blog .fa-instagram {
+  font-size:20px;
+  vertical-align: middle;
+  padding-bottom:6px;
+}
 
 .from-the-blog .view-all {
   color: #0b1035;
@@ -387,7 +397,9 @@ footer.stateline-footer .social-media-icons a {
   position:relative;
 }
 
-
+.instagram p.view-all {
+  text-align: right;
+}
 
 
 
