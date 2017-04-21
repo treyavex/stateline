@@ -21,7 +21,7 @@
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-    <nav class="navbar navbar-default " role="navigation">
+  <nav class="navbar navbar-default " role="navigation">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="icon-bar"></span>
@@ -45,11 +45,9 @@
         </ul>
       </div>
     </nav>
-
-    <hr style="margin:20px 0 0 0;">
-    <div id="product-detail-body">
-    <div id="product-cont" class="row">
-      <div class="col-md-6">
+  <div id="product-detail-body">
+    <div id="product-cont" class="row content-cont">
+      <div class="col-md-5">
         <div class="product-main-img">
           <img src="assets/hoodie-main.png">
         </div>
@@ -59,55 +57,66 @@
           <img id="product-side3" src="assets/hoodie-view3.png">
         </div>
       </div>
-      <div class="col-md-6">
-        <div class="product-description-cont">
-          <h2>Athletic Crew Neck</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
-          <div class="info-btn-cont">
-            <div class="dropdown">
-              <button id="btn-size-chart" class="info-btn btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SIZE CHART<img src="assets/plus.png"></button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">blah blah blah blah blah</a>
-              </div>
-            </div> <!-- .dropdown -->
-            <button id="btn-more-info" class="info-btn btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MORE INFO<img src="assets/plus.png"></button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">blah blah blah blah blah</a>
-            </div> <!-- .dropdown -->
-          </div> <!-- .info-btn-cont -->
-          <div class="bottom-btn-cont">
-            <div class="dropdown">
-              <button id="btn-qty" class="bottom-btn btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">QTY<img src="assets/down-arrow.png"></button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">1</a>
-                <a class="dropdown-item" href="#">2</a>
-                <a class="dropdown-item" href="#">3</a>
-              </div>
-            </div> <!-- .dropdown -->
-            <button type="button" id="btn-cart" class="bottom-btn btn btn-secondary">ADD TO CART</button>
-          </div> <!-- .bottom-btn-cont -->
+      <div class="col-md-2"></div>
+      <div class="col-md-4 product-description-cont">
+        <h2>Athletic Fit Crewneck <br>Sweatshirt</h2>
+        <h2 class="h2-sub">$59.99</h2>
+        <h3 class="in-stock-text">IN STOCK</h3>
+        <div id="description-text">
+          <p>Essential everyday crewneck sweatshirt in a close-fitting style with stretch rib fabric at the side-seams allowing for movement.</p>
+          <p>&nbsp;– 100% cotton body and rib</p>
+          <p>&nbsp;– 12 oz. fleece, Pre-shrunk</p>
+          <p>&nbsp;– Flat-seamed with cover-stitching on neck,<br>&nbsp;&nbsp;&nbsp;&nbsp;tail, armholes, sleeves and cuffs</p>
         </div>
+        <!-- <ul>
+          <li>– 100% cotton body and rib</li>
+          <li>– 12 oz. fleece, Pre-shrunk</li>
+          <li>– Flat-seamed with cover-stitching on neck, tail, armholes, sleeves and cuffs</li>
+        </ul> -->
+        <div id="product-colors-cont">
+          <div id="color1" class="product-color"></div>
+          <div id="color2" class="product-color"></div>
+          <div id="color3" class="product-color"></div>
+          <div id="color4" class="product-color"></div>
+          <div id="color5" class="product-color"></div>
+          <div id="color6" class="product-color"></div>
+          <div id="color7" class="product-color"></div>
+        </div>
+        <div id="option-btn-cont">
+          <button id="btn-size" class="option-btn">SIZE</button>
+          <button id="btn-quantity" class="option-btn">QUANTITY</button>
+        </div>
+        <div class="bottom-btn-cont">
+          <button type="button" id="btn-cart" class="btn btn-secondary">ADD TO CART</button>
+        </div> <!-- .bottom-btn-cont -->
+        <p class="small-descrip">VIEW SIZE CHART</p>
       </div> <!-- .col-md-6 -->
     </div> <!-- .row -->
-    <div id="suggested-cont" class="row">
-      <div class="col-md-4">
-        <div class="suggested-text-cont">
+    <div id="suggested-cont">
+      <div class="row content-cont">
+        <div class="col-md-4 suggested-text-cont">
           <h2>You May Also Like</h2>
-          <h3>SEE MORE</h3>
+          <p>SEE MORE>></p>
+        </div>
+        <div id="suggested-item1" class="col-md-4 suggested-item">
+          <img src="assets/suggested1.png">
+        </div>
+        <div id="suggested-item2" class="col-md-4 suggested-item">
+          <img src="assets/suggested2.png">
         </div>
       </div>
-      <div class="col-md-4">
-        <img src="assets/suggested1.png">
-      </div>
-      <div class="col-md-4">
-        <img src="assets/suggested2.png">
-      </div>
     </div>
-    <div id="banner-cont" class="row">
-      <div class="col-md-12">
+    <div id="banner-cont">
+      <div class="row content-cont">
+        <div class="banner-text">
+          <h1>Interested in Wholesale?</h1>
+          <button>SUBMIT INQUIRY</button>
+        </div>
       </div>
+    </div> <!-- banner-cont -->
+    <div id="substitute-header">
     </div>
-    </div>
+  </div>
 
 
 
